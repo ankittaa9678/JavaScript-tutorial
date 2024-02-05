@@ -148,7 +148,7 @@ console.log(arr)
 //pass by value
 
 // pass by value
-let getValue = [...arr]; //using seprator arr value is pass
+let getValue = [...arr]; //using spread operator arr value is pass
 getValue[6]= 8
 console.log("Orifinal array ",arr);
 console.log("getValue array",getValue);
@@ -170,3 +170,4 @@ for(let key in car){
 }
 console.log("***")
 console.log(x)
+
